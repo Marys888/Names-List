@@ -17,7 +17,7 @@ public class DataHandler {
     public String formOutput(List<String> namesList, int index) {
         try {
             String name = namesList.get(index);
-            return "Name:" + name + " " + "is in index" + " " + index;
+            return "Name: " + name + " " + "is in index" + " " + index;
         } catch (IndexOutOfBoundsException e) {
             return "Wrong index!";
         }
