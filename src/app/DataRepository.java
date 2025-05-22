@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DataRepository {
     public List<String> getData() {
-        List<String> namesList = new ArrayList<>();
+        List<String> namesList = List.of("Alice", "Bob", "Lucy", "Denis", "Tom");
         return namesList;
     }
 }
